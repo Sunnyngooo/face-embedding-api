@@ -1,0 +1,22 @@
+# Virtual environment and Cache
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# File image
+*.jpg
+*.jpeg
+*.png
+
+# Draft file
+read
+benchmark.py 
+
+# File config 
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
