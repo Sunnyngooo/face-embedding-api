@@ -48,14 +48,20 @@ pip install -r requirements.txt
 - uvicorn
 - DeepFace
 - OpenCV Python Headless
+- TF-Keras
 
 ## How to run
 
 ### Start the Server
 
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
+or 
+```bash
+uvicorn main:app --host 0.0.0.0  --port 8000
+```
+when running on Server/Box
 
 The API will be available at `http://localhost:8000` by default.
 
